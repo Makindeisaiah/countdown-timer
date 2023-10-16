@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: yellow;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,.hour,.minute,.second {
+    font-size: 3rem;
+    color: white;
+}
+
+.waiting {
+    height: 40vh;
+    margin-top: 15px;
+    height: 340px;
+}
+
+.design {
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 480px) {
+    h2 {
+        font-size: 30px;
+        
+    }
+}
+
+@media screen and (max-width: 481px) {
+    h2 {
+        font-size: 45px;
+    }
+}
